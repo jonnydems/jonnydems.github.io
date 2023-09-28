@@ -70,3 +70,9 @@ h3 {
 #profpic {
     padding-top: 50px;
 }
+.toplinks {
+    float: right;
+}
+.clear {
+    clear: both;
+}
