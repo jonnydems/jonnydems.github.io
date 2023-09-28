@@ -6,6 +6,20 @@
 	<title>Foundation Intro</title>
 	<link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/Assg1.css">
+
+    <div class="grid-x grid-padding-x header">
+        <p1 class="hide-for-large">Jonny DeMarais</p1>
+        <button type="button" class="cell large-auto button hide-for-large float-right"data-toggle="offCanvas">Open Menu</button>
+    </div>
+
+    <div class="show-for-large header" style="width:100%">
+        <p1 style="color:darkslategray">Jonny DeMarais</p1>
+        <a href="index.html" class="toplinks">Home Page</a>
+        <a href="projects.html" class="toplinks">Projects</a>
+        <a href="resume.html" class="toplinks">Resume</a>
+        <a href="fun.html" class="toplinks">Fun Stuff</a>
+    </div>
+
 </head>
 <body>
 
@@ -18,35 +32,39 @@
             </button>
                 <!-- Menu -->
                 <ul class="menu-vertical">
-                    <li><a href="#" target="_blank" style="color:black; font-size: x-large; font-weight:bold">Home Page</a></li>
-                    <li><a href="#" target="_blank" style="color:black; font-size: x-large; font-weight:bold">Projects</a></li>
-                    <li><a href="#" target="_blank" style="color:black; font-size: x-large; font-weight:bold">Resume</a></li>
-                    <li><a href="#" target="_blank" style="color:black; font-size: x-large; font-weight:bold">Fun Stuff</a></li>
+                    <li><a href="index.html" style="color:black; font-size: x-large; font-weight:bold">Home Page</a></li>
+                    <li><a href="projects.html" style="color:black; font-size: x-large; font-weight:bold">Projects</a></li>
+                    <li><a href="resume.html" style="color:black; font-size: x-large; font-weight:bold">Resume</a></li>
+                    <li><a href="fun.html" style="color:black; font-size: x-large; font-weight:bold">Fun Stuff</a></li>
                 </ul>
         </div>
 
         <!-- Your page content lives here -->
         <div class="off-canvas-content" data-off-canvas-content>
             <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                    <p1 class="hide-for-medium">Jonny DeMarais</p1>
-                    <button type="button" class="cell large-auto button hide-for-medium"data-toggle="offCanvas">Open Menu</button>
-                </div>
-                <div class="show-for-medium" style="width:100%">
-                    <p1>Jonny DeMarais</p1>
-                    <a href="#" target="_blank">Home Page</a>
-                    <a href="#" target="_blank">Projects</a>
-                    <a href="#" target="_blank">Resume</a>
-                    <a href="#" target="_blank">Fun Stuff</a>
-                </div>
-                <div class="grid-x grid-padding-x">
-                    <div class="cell small-12 large-6">
-                        <h2>Projects</h2>
-                        <img src="./pictures/profpic.jpg"/>
-                    </div>
 
+                <h2>Projects</h2>
+                <div class="grid-x grid-padding-x">
                     <div class="cell small-12 large-6">
-                        
+                        <div class="funbox">
+                            <h3>Sudoku</h3>
+                            <p>I created a python program that solved sudoku using graph coloring. If a user entered an array containing all the given numbers and their locations of a sudoku puzzle, the program would calculate the solution</p5>
+                            <img src="./pictures/sudoku.jpg"  width="325px;" style="padding: 20px;"/>
+                        </div>
+                    </div>
+                    <div class="cell small-12 large-6">
+                        <div class="funbox">
+                            <h3>AI Writing Robot</h3>
+                            <p>Along with a group of four other students, I wrote code for a robot to write out letters. The code contained a graph as well as angles and lengths to get to each point on the graph. The user would input the path and the robot would trace out the letter using a marker.</p>
+                            <img src="./pictures/AIprojpic.jpg"  width="400px;" style="padding: 20px;"/>
+                        </div>
+                    </div>
+                    <div class="cell small-12 large-6">
+                        <div class="funbox">
+                            <h3>Website</h3>
+                            <p>I am currently interning for a non-profit organization called Saidiana. I am working to recreate their website to save them money on monthly maintenance fees.</p>
+                            <img src="./pictures/Saidianapic.jpg"  width="450px;" style="padding: 20px;"/>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -13,11 +13,11 @@
     </div>
 
     <div class="show-for-large header" style="width:100%">
-        <p1>Jonny DeMarais</p1>
-        <a href="#" target="_blank" class="toplinks">Home Page</a>
-        <a href="#" target="_blank" class="toplinks">Projects</a>
-        <a href="#" target="_blank" class="toplinks">Resume</a>
-        <a href="#" target="_blank" class="toplinks">Fun Stuff</a>
+        <p1 style="color:darkslategray">Jonny DeMarais</p1>
+        <a href="index.html" class="toplinks">Home Page</a>
+        <a href="projects.html" class="toplinks">Projects</a>
+        <a href="resume.html" class="toplinks">Resume</a>
+        <a href="fun.html" class="toplinks">Fun Stuff</a>
     </div>
 
 </head>
@@ -25,7 +25,19 @@
 
     <div class="off-canvas-wrapper">
         <!-- Your menu or Off-canvas content goes here -->
-
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+                <!-- Menu -->
+                <ul class="menu-vertical">
+                    <li><a href="index.html" style="color:black; font-size: x-large; font-weight:bold">Home Page</a></li>
+                    <li><a href="projects.html" style="color:black; font-size: x-large; font-weight:bold">Projects</a></li>
+                    <li><a href="resume.html" style="color:black; font-size: x-large; font-weight:bold">Resume</a></li>
+                    <li><a href="fun.html" style="color:black; font-size: x-large; font-weight:bold">Fun Stuff</a></li>
+                </ul>
+        </div>
 
         <!-- Your page content lives here -->
         <div class="off-canvas-content" data-off-canvas-content>
@@ -36,39 +48,15 @@
                     <div class="cell small-12 large-6">
                         <div class="funbox">
                             <h3>Wrestling</h3>
-                            <img src="./pictures/wrestlingclub.jpg" class="float-right" width="400px;" style="padding: 20px;"/>
-                            <p>I Wrestled throughout highschool and started </p>
+                            <p>I've been wrestling competitively since I was in 2nd grade. I wrestled throughout highschool and started the St. Thomas Wrestling Club. (<a href="https://stthomas.campuslabs.com/engage/organization/WrestlingClub" target="_blank">WrestlingClub</a>) I also help coach a local highschool.</p5>
+                            <img src="./pictures/wrestlingclub.jpg"  width="400px;" style="padding: 20px;"/>
                         </div>
                     </div>
                     <div class="cell small-12 large-6">
-                        <div class="resumebox">
-                            <h3>Education</h3>
-                            <ul>
-                                <li>Trinity School at River Ridge, MN</li>
-                                <li>University of St. Thomas, MN</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="cell small-12 large-6">
-                        <div class="resumebox">
-                            <h3>Leadership</h3>
-                            <ul>
-                                <li>St. Thomas Wrestling Club-Leader and Founder</li>
-                                <li>SPO Summer Missionary Training-Intern</li>
-                                <li>TSRR Wrestling-Team Captain</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="cell small-12 large-6">
-                        <div class="resumebox">
-                            <h3>Skills</h3>
-                            <ul>
-                                <li>Proficient in Java, Python, C++, MATLAB, LISP, MIPS</li>
-                                <li>Artificial Intelligence</li>
-                                <li>Information Security</li>
-                                <li>Web Development</li>
-                            </ul>
+                        <div class="funbox">
+                            <h3>Guitar</h3>
+                            <p>I've been learning to play guitar for the last 5 years. I play mostly acoustic and some classical, and my favorite song to play is Sligo Creek by Al Petteway.</p>
+                            <img src="./pictures/guitarpic.jpg"  width="400px;" style="padding: 20px;"/>
                         </div>
                     </div>
                 </div>
