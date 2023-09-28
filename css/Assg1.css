@@ -14,11 +14,11 @@ body {
 }
 p1 {
     padding: 20px;
-    font-size: 20px; /* Adjust the font size as needed */
-    font-weight: bold; /* Add font-weight to make it bold or adjust as needed */
-    text-decoration: none; /* Remove underline from links */
-    margin-right: none; /* Add some space between links (adjust as needed) */
-    color:black; /* Change the text color as desired */
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: none;
+    color:black;
 }
 p4 {
     padding-left: 15px;
@@ -64,9 +64,7 @@ h3 {
     height: 500px;
     padding: 10px;
 }
-.header {
-    background-color: white;
-}
+
 #profpic {
     padding-top: 50px;
 }
